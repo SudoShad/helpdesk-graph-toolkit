@@ -1,0 +1,5 @@
+Category,Name,ObjectId,Detail,Severity,CollectedUtc
+StaleDevice,EXAMPLE-LAPTOP-01,00000000-0000-0000-0000-000000000001,"OS=Windows; LastSignIn=2026-01-15T12:00:00Z; Enabled=True; NOTE=EXAMPLE_FAKE_DATA",Medium,2026-09-24T15:00:00Z
+StaleDevice,EXAMPLE-DESKTOP-02,00000000-0000-0000-0000-000000000002,"OS=Windows; LastSignIn=; Enabled=True; NOTE=EXAMPLE_FAKE_DATA",Medium,2026-09-24T15:00:00Z
+DisabledUserWithLicense,example.user@contoso.example,00000000-0000-0000-0000-000000000003,"DisplayName=Example User; LicenseCount=1; NOTE=EXAMPLE_FAKE_DATA",High,2026-09-24T15:00:00Z
+RiskDetection,example.risk@contoso.example,00000000-0000-0000-0000-000000000004,"Risk=EXAMPLE; State=atRisk; Activity=signin; Detected=2026-09-23T18:00:00Z; NOTE=EXAMPLE_FAKE_DATA",High,2026-09-24T15:00:00Z
