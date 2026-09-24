@@ -2,7 +2,7 @@
 
 **Author:** Shadman Bari · [shadman.io](https://shadman.io) · [LinkedIn](https://linkedin.com/in/shadman-bari) · shadman@shadman.io  
 **Focus:** Windows / Microsoft 365 helpdesk automation (Entra ID + Graph)  
-**Companion:** [linux-ops-toolkit](https://github.com/SudoShad/linux-ops-toolkit) (Linux bash ops) · [linux-homelab](https://github.com/SudoShad/linux-homelab) · [ad-intune-mini-tenant](https://github.com/SudoShad/ad-intune-mini-tenant) *(Intune lab — PARKED)*
+**Companion:** [endpoint-hardening-baseline](https://github.com/SudoShad/endpoint-hardening-baseline) (Intune hardening policy-as-code) · [linux-ops-toolkit](https://github.com/SudoShad/linux-ops-toolkit) (Linux bash ops) · [linux-homelab](https://github.com/SudoShad/linux-homelab) · [ad-intune-mini-tenant](https://github.com/SudoShad/ad-intune-mini-tenant) *(Intune lab — PARKED)*
 
 PowerShell scripts for common Desktop Support / IT Support tickets against Microsoft Entra ID via Microsoft Graph. Built for Queens–NYC deskside and Jr Sysadmin interviews — honest automation you can wire to a real tenant with an app registration.
 
@@ -77,6 +77,17 @@ Operator steps for each script: [`docs/RUNBOOK.md`](docs/RUNBOOK.md).
 | [`docs/RUNBOOK.md`](docs/RUNBOOK.md) | When/how to run each script |
 | [`examples/sample-triage.csv`](examples/sample-triage.csv) | **EXAMPLE** output shape only |
 | [`tests/Smoke-Syntax.ps1`](tests/Smoke-Syntax.ps1) | AST / parser smoke test (no live Graph) |
+
+---
+
+## Related labs
+
+| Repo | Role |
+|------|------|
+| [endpoint-hardening-baseline](https://github.com/SudoShad/endpoint-hardening-baseline) | CIS-inspired Intune / policy-as-code Windows hardening |
+| [linux-ops-toolkit](https://github.com/SudoShad/linux-ops-toolkit) | POSIX `sh` backup / SSH guard / health check |
+| [linux-homelab](https://github.com/SudoShad/linux-homelab) | Proxmox + AD/GPO + WireGuard + osTicket + Wazuh |
+| [ad-intune-mini-tenant](https://github.com/SudoShad/ad-intune-mini-tenant) | Entra + Intune enroll lab — **PARKED** |
 
 ---
 
