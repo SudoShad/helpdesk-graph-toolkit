@@ -43,7 +43,7 @@ if (-not (Test-Path -LiteralPath $OutputDirectory)) {
 $stamp = Get-Date -Format 'yyyy-MM-dd'
 $outFile = Join-Path $OutputDirectory "triage-$stamp.csv"
 $cutoff = (Get-Date).ToUniversalTime().AddDays(-$DaysInactive)
-rows = New-Object System.Collections.Generic.List[object]
+$rows = New-Object System.Collections.Generic.List[object]
 
 Write-HelpdeskLog -Level INFO -Message "Building triage export for $stamp (stale > $DaysInactive days)"
 
